@@ -1,0 +1,84 @@
+body{
+	font-family:Century Gothic,arial,sans-serif;
+	background-color: white;
+
+}
+
+
+.titulo{
+	text-align: center;
+	color: purple;
+	font-weight: bold;
+	font-size: 50px;
+	margin-top: 18%;
+	margin-bottom: -50px;
+}
+
+
+
+.btn{
+	text-align: center;
+	font-family: arial;
+	font-size:16px;
+	text-transform: uppercase;
+	font-weight:700;
+	border:none;
+	padding:12px;
+	cursor: pointer;
+	display:inline-block;
+	text-decoration: none;
+}
+
+.btn-purple{
+	background:purple;
+	color:#fff;
+	box-shadow:0 5px 0 #670167;
+	transition:all 0.2s ease;
+}
+.btn-purple:hover{
+	background:#670167;
+	box-shadow:0 5px 0 #470047;
+	transform: scale(0.9);
+}
+
+.btn-green{
+	width: 100%;
+	background:green;
+	color:#fff;
+	box-shadow:0 5px 0 #006000;
+	transition:all 0.2s ease;
+}
+.btn-green:hover{
+	background:#006000;
+	box-shadow:0 5px 0 #003f00;
+}
+
+.btn-red{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	background:red;
+	color:#fff;
+	box-shadow:0 5px 0 #d20000;
+}
+.btn-red:hover{
+	background:#d20000;
+	box-shadow:0 5px 0 #b00000;
+}
+
+.btn-green:active, .btn-purple:active, .btn-red:active{
+	position:relative;
+	top:5px;
+	box-shadow:none;
+}
+
+.containerzin{
+	margin-top: 25px;
+	padding: 10px;	
+	padding-bottom: 20px;
+	background-color: white;
+	border-bottom: 5px solid #666666;
+	box-shadow: 0px 0px 10px #ccc;
+	margin-left: 30%;
+	margin-right: 30%;
+}
